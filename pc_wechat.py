@@ -91,7 +91,7 @@ class crawl_jiandan(object):
             self.store_page(url,date,title)
 
 if __name__ == '__main__':
-    offset=80
+    offset=0  
     while True:
         print(offset)
         crawl_jiandan(offset).run()
